@@ -1,0 +1,21 @@
+﻿<Page
+    x:Class="T2108M_UWP.Pages.Account"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:T2108M_UWP.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <RelativePanel>
+            <TextBox x:Name="sID" Margin="20" PlaceholderText="Student ID"></TextBox>
+            <TextBox x:Name="sName" RelativePanel.Below="sID" Margin="20" PlaceholderText="Student Name"></TextBox>
+            <TextBox x:Name="sAge" RelativePanel.Below="sName" Margin="20" PlaceholderText="Student Age"></TextBox>
+            <TextBox x:Name="sAddress" RelativePanel.Below="sAge" Margin="20" PlaceholderText="Student Address"></TextBox>
+            <DatePicker x:Name="sBirthday" RelativePanel.Below="sAddress" Margin="20"></DatePicker>
+            <Button Click="Button_Click" RelativePanel.Below="sBirthday" Margin="20"></Button>
+        </RelativePanel>
+    </Grid>
+</Page>

@@ -1,0 +1,58 @@
+﻿<Page
+    x:Class="T2108M_UWP.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:T2108M_UWP"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <SplitView x:ConnectionId='2' x:Name="SP" OpenPaneLength="180"  DisplayMode="CompactInline" IsPaneOpen="True">
+        <SplitView.Pane>
+            <RelativePanel>
+                <FontIcon x:ConnectionId='3'                       x:Name="Click" FontFamily="Segoe MDL2 Assets" Glyph="&#xE700;" Margin="12,20,0,0"/>
+                <ListViewItem x:ConnectionId='4'                      x:Name="Home" RelativePanel.Below="Click" Margin="0,10,0,0">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <FontIcon Grid.Column="0" FontFamily="Segoe MDL2 Assets" Glyph="&#xEA8A;" Margin="0,8,0,0"/>
+                        <TextBlock Grid.Column="1" Text="Home" Margin="20,8,0,0"/>
+
+                    </Grid>
+                </ListViewItem>
+                <ListViewItem x:ConnectionId='5'                         x:Name="Account" RelativePanel.Below="Home" Margin="0,10,0,0">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <FontIcon Grid.Column="0" FontFamily="Segoe MDL2 Assets" Glyph="&#xE716;" Margin="0,8,0,0"/>
+                        <TextBlock Grid.Column="1" Text="Account" Margin="20,8,0,0"/>
+
+                    </Grid>
+                </ListViewItem>
+                <ListViewItem x:ConnectionId='6'                         x:Name="Weather" RelativePanel.Below="Account" Margin="0,10,0,0">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <FontIcon Grid.Column="0" FontFamily="Segoe MDL2 Assets" Glyph="&#xEB42;" Margin="0,8,0,0"/>
+                        <TextBlock Grid.Column="1" Text="Weather" Margin="20,8,0,0"/>
+
+                    </Grid>
+                </ListViewItem>
+            </RelativePanel>
+        </SplitView.Pane>
+        <SplitView.Content>
+            <ScrollViewer Margin="10">
+                <Frame x:ConnectionId='7' x:Name="MainFrame"></Frame>
+            </ScrollViewer>
+        </SplitView.Content>
+  
+    </SplitView>
+
+</Page>
+

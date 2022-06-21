@@ -1,0 +1,11 @@
+C:\Users\ACER\Desktop\C#\T2108M_buoi1\T2108M_buoi1\bin\Debug\T2108M_buoi1.exe.config
+C:\Users\ACER\Desktop\C#\T2108M_buoi1\T2108M_buoi1\bin\Debug\T2108M_buoi1.exe
+C:\Users\ACER\Desktop\C#\T2108M_buoi1\T2108M_buoi1\bin\Debug\T2108M_buoi1.pdb
+C:\Users\ACER\Desktop\C#\T2108M_buoi1\T2108M_buoi1\obj\Debug\T2108M_buoi1.csproj.AssemblyReference.cache
+C:\Users\ACER\Desktop\C#\T2108M_buoi1\T2108M_buoi1\obj\Debug\T2108M_buoi1.csproj.SuggestedBindingRedirects.cache
+C:\Users\ACER\Desktop\C#\T2108M_buoi1\T2108M_buoi1\obj\Debug\T2108M_buoi1.csproj.CoreCompileInputs.cache
+C:\Users\ACER\Desktop\C#\T2108M_buoi1\T2108M_buoi1\obj\Debug\T2108M_buoi1.exe
+C:\Users\ACER\Desktop\C#\T2108M_buoi1\T2108M_buoi1\obj\Debug\T2108M_buoi1.pdb
+C:\Users\ACER\Desktop\C#\T2108M_buoi1\T2108M_buoi1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ACER\Desktop\C#\T2108M_buoi1\T2108M_buoi1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ACER\Desktop\C#\T2108M_buoi1\T2108M_buoi1\obj\Debug\T2108M_buoi1.csproj.CopyComplete
